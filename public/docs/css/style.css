@@ -360,6 +360,27 @@ Home Section Ends Here
     text-align: left;
     line-height: 1.29;
 }
+.cat_card_price{
+    width:100%;
+    min-height:20px;
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+.cat_card_new_price{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight:bold;
+    color:#7c3424
+}
+.cat_card_old_price{
+    font-size: 15px;
+    color:grey;
+    text-decoration: line-through;
+
+}
 .cat_card_button{
     width:100%;
     margin-top: 10px;
@@ -449,7 +470,21 @@ Home Section Ends Here
 }
 .cart_title{
     width:100%;
-    font-size: 12px;
+    font-size: 16px;
+    color:#eea54a;
+}
+.cart_text{
+    width:100%;
+    margin-top: 15px;
+}
+.cart_price{
+    width:100%;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color:gray;
+}
+.retail{
+    text-decoration: line-through;
 }
 /*==================================================
                 Cart Section Ends Here

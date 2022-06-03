@@ -9,15 +9,23 @@ function App() {
   const [product,setProduct]=useState([
     {
       id:1,
-      title:"Beautifully Crafted Cabinet",
+      title:"Beautifully Crafted Cabinet 1",
       location:"docs/img/cabinet_living.jpg",
+      rate:100,
+      price:80,
     }
   ])
 
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={Home} exact />
+        <Route path="/" 
+               render={()=><Home cart={cart} 
+               setCart={setCart}
+               product={product}/>
+              
+             }
+        exact />
         <Route path="/home" 
           render={()=><Home cart={cart} 
                             setCart={setCart}

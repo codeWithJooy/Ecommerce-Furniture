@@ -1,7 +1,7 @@
 export default[
     {
         id:1,
-        title:"Beautifully Crafted Cabinet",
+        title:"Beautifully Crafted Cabinet 1",
         cost:{ rate:100,
                discount:20,
                price:80
@@ -12,7 +12,7 @@ export default[
     },
     {
         id:2,
-        title:"Beautifully Crafted Cabinet",
+        title:"Beautifully Crafted Cabinet 2",
         cost:{ rate:200,
                discount:20,
                price:160
@@ -23,7 +23,7 @@ export default[
     },
     {
         id:3,
-        title:"Beautifully Crafted Cabinet",
+        title:"Beautifully Crafted Cabinet 3",
         cost:{ rate:300,
                discount:20,
                price:240
@@ -34,7 +34,7 @@ export default[
     },
     {
         id:4,
-        title:"Beautifully Crafted Tv Unit",
+        title:"Beautifully Crafted Tv Unit 1",
         cost:{ rate:400,
                discount:10,
                price:360
@@ -45,7 +45,7 @@ export default[
     },
     {
         id:5,
-        title:"Beautifully Crafted Tv Unit",
+        title:"Beautifully Crafted Tv Unit 2",
         cost:{ rate:300,
                discount:20,
                price:240
@@ -56,7 +56,7 @@ export default[
     },
     {
         id:6,
-        title:"Beautifully Crafted Lamp",
+        title:"Beautifully Crafted Lamp 1",
         cost:{ rate:300,
                discount:20,
                price:240
@@ -67,7 +67,7 @@ export default[
     },
     {
         id:7,
-        title:"Beautifully Crafted Lamp",
+        title:"Beautifully Crafted Lamp 2",
         cost:{ rate:360,
                discount:20,
                price:288

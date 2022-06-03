@@ -15,7 +15,7 @@ const Category=({cat,cart,setCart,product,setProduct})=>{
                <Header setSignIn={setSignIn}  setCart={setCart} setContact={setContact}/>
                <div className="category_section">
                   <Filter />
-                  <CardSection setProduct={setProduct}/>
+                  <CardSection setProduct={setProduct} setCart={setCart}/>
                </div>
            </div>
            <Cart cart={cart}

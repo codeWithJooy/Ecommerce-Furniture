@@ -14,8 +14,13 @@ const Cart=({cart,setCart,product})=>{
                 <div class="cart_title">
                    <p>{item.title}</p>
                 </div>
-                <div className="cart_image">
-
+                <div className="cart_text">
+                   <div className="cart_price retail">
+                      <p>Retail Price : Rs {item.rate}</p>
+                   </div>
+                   <div className="cart_price">
+                      <p>Offer Price : Rs {item.price}</p>
+                   </div>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import CardUnit from './CardUnit'
 import data from '../data'
 
-const CardSection=({setProduct})=>{
+const CardSection=({setProduct,setCart})=>{
   const card_data=data.filter(cat=>cat.category.includes('living'))
                       .map(item=>{
        return(
@@ -11,6 +11,9 @@ const CardSection=({setProduct})=>{
                   id={item.id}
                   key={item.id}
                   setProduct={setProduct}
+                  rate={item.cost.rate}
+                  price={item.cost.price}
+                  setCart={setCart}
                   />
        )
   })

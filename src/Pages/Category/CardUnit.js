@@ -1,17 +1,22 @@
 import React from 'react'
 import data from '../data'
 
-const CardUnit=({img,title,id,setProduct})=>{
+const CardUnit=({img,title,id,setProduct,rate,price,setCart})=>{
     const getProduct=(e)=>{
        const id=e.currentTarget.id 
        let location=data.find(x => x.id==id).location
        let title=data.find(x => x.id==id).title
+       let rate=data.find(x => x.id==id).cost.rate
+       let price=data.find(x => x.id==id).cost.price
        console.log(title)
        let product_object={
            location,
-           title
+           title,
+           rate,
+           price
        }
        setProduct( arr => [...arr,product_object])
+       setCart("on")
     }
     return(
     <div className="cat_card_unit">
@@ -26,10 +31,10 @@ const CardUnit=({img,title,id,setProduct})=>{
             </div>
             <div className="cat_card_price">
                 <div className="cat_card_new_price">
-
+                   <p>Rs {price}</p>
                 </div>
                 <div className="cat_card_old_price">
-
+                    <p>Rs {rate}</p>
                 </div>
                 <div className="cat_card_dis">
 
