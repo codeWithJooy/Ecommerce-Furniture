@@ -8,7 +8,7 @@ const CardUnit=({img,title,id,setProduct,rate,price,setCart})=>{
        let title=data.find(x => x.id==id).title
        let rate=data.find(x => x.id==id).cost.rate
        let price=data.find(x => x.id==id).cost.price
-       console.log(title)
+       
        let product_object={
            location,
            title,

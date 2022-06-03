@@ -7,7 +7,7 @@ const Sort_Filter=()=>{
              <p>Sort by</p>
           </div>
           <div className="filter_tags">
-              <input type="radio" name="sort" checked />
+              <input type="radio" name="sort" value="" defaultChecked={true} />
               <label>Relevance</label>
           </div>
           <div className="filter_tags">
