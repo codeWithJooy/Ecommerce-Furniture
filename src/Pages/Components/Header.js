@@ -29,7 +29,7 @@ const Header=({setSignIn,setCart,setContact})=>{
                  <img src="docs/img/icons/user_light.png" />
                </div>
                <div className="icons_unit" onClick={open_contact}>
-                 <img src="docs/img/icons/like.png" />
+                 <img src="docs/img/icons/support.png" />
                </div>
                <div className="icons_unit">
                  <img src="docs/img/icons/cart.png" onClick={open_cart}/>
